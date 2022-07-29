@@ -9,7 +9,6 @@ import {
   listCommitsResponse,
   fetchFilesFromRepo,
   fetchOrgRepos,
-  getUser,
 } from "../api";
 import { Repo, FlatDataTab, Repository } from "../types";
 import React from "react";
