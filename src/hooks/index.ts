@@ -1,6 +1,5 @@
 import { useQuery, UseQueryOptions, UseQueryResult } from "react-query";
 import nprogress from "nprogress";
-import store from 'store2';
 import {
   fetchCommits,
   fetchFlatYaml,
