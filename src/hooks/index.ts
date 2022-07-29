@@ -1,6 +1,5 @@
 import { useQuery, UseQueryOptions, UseQueryResult } from "react-query";
 import nprogress from "nprogress";
-
 import {
   fetchCommits,
   fetchFlatYaml,
@@ -13,6 +12,7 @@ import {
 } from "../api";
 import { Repo, FlatDataTab, Repository } from "../types";
 import React from "react";
+
 
 // Hooks
 export function useFlatYaml(repo: Repo) {
