@@ -1,0 +1,11 @@
+
+
+services:
+  web:
+    image: node:18-alpine
+    command: node /usr/src/index.mjs --experimental-fetch
+    volumes:
+      - ./index.mjs:/usr/src/index.mjs
+      - ./node_modules:/usr/src/node_modules
+    ports:
+      - 8081:8081
