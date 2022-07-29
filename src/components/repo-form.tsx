@@ -66,7 +66,7 @@ function RepoFormComponent(props: FormikProps<Repo>) {
     <div>
 
       <div className="mt-3 text-center text-gray-500 text-sm">
-          { !user && <a href="https://github.com/login/oauth/authorize?client_id=0a8b4cd672b5e3dd8ea5&scope=repo" className="underline">click login first</a> }
+          { !user && <a href="https://github.com/login/oauth/authorize?client_id=0a8b4cd672b5e3dd8ea5&scope=repo" className="underline">If you wants see private repo, please click to login first</a> }
           { user && (
             <div className="flex flex-col items-center gap-3">
               <img src={user.avatar_url} width="72" height="72" />
